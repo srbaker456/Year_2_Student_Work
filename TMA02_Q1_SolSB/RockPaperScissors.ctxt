@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RockPaperScissors
+comment0.text=\r\n\ For\ Q1\ part\ a\:\r\n\ This\ RockPaperScissors\ class\ can\ be\ used\ to\ play\ a\ game\ of\ Rock,\ Paper,\ Scissors\ \ \r\n\ against\ the\ computer.\ The\ winner\ of\ the\ game\ will\ be\ whoever\ wins\ 3\ rounds\ first.\r\n\ Each\ round\ is\ decided\ as\ per\ the\ rules\ of\ a\ game\ of\ Rock,\ Paper,\ Scissors.\r\n\ If\ the\ player\ enters\ something\ other\ than\ the\ three\ options,\ the\ computer\ wins\ the\ round.\r\n\r\n\ @author\ (Steven\ Baker)\r\n\ @version\ (01/02/2022)\r\n
+comment1.params=
+comment1.target=RockPaperScissors()
+comment1.text=\r\n\ For\ Q1\ part\ c\:\r\n\ Constructor\ for\ objects\ of\ the\ RockPaperScissors\ class\r\n\ with\ zero\ parameters.\r\n\ Each\ player's\ score\ will\ be\ set\ to\ 0\ and\ an\ instance\ of\r\n\ InputReader\ will\ be\ used\ to\ get\ the\ player's\ option\ and\r\n\ the\ Random\ class\ will\ be\ used\ to\ determine\ the\ \r\n\ computer's\ choice\ for\ each\ round.\r\n
+comment2.params=
+comment2.target=void\ printPrompt()
+comment2.text=\r\n\ For\ Q1\ part\ d\:\r\n\ This\ method\ prints\ two\ blank\ lines\ and\ then\ a\ prompt.\r\n\ The\ user's\ input\ will\ appear\ on\ the\ same\ line\ as\ the\ prompt.\r\n\r\n
+comment3.params=
+comment3.target=java.lang.String\ userChoice()
+comment3.text=\r\n\ For\ Q1\ part\ e\:\r\n\ This\ method\ returns\ the\ user's\ input\ for\ a\ round\ of\ the\ game\ (i.e.\ rock,\ paper\ or\ scissors)\r\n\ in\ lowercase,\ with\ any\ leading\ and\ trailing\ space\ trimmed.\r\n\r\n\ @return\ A\ String\ containing\ what\ the\ player\ has\ inputted.\r\n
+comment4.params=
+comment4.target=java.lang.String\ computerChoice()
+comment4.text=\r\n\ For\ Q1\ part\ f\:\r\n\ This\ method\ generates\ a\ random\ number\ between\ 0\ and\ 2\ (inclusive)\ \r\n\ and\ uses\ a\ switch\ statement\ to\ determine\ the\ computer's\ choice\ of\ \r\n\ "rock"\ (value\ 0),\ "paper"\ (value\ 1)\ or\ "scissors"\ (value\ 2).\ \r\n\ The\ method\ then\ returns\ the\ computer's\ choice.\r\n\r\n\ @return\ A\ String\ containing\ what\ the\ computer\ has\ generated.\r\n
+comment5.params=yourChoice\ computerChoice
+comment5.target=java.lang.String\ findWinner(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ For\ Q1\ part\ g\:\r\n\ This\ method\ determines\ the\ winner\ of\ the\ round,\r\n\ then\ either\ the\ player's\ or\ the\ computer's\ score\ is\ incremented\ \r\n\ unless\ both\ the\ player's\ and\ the\ computer's\ choices\ are\ the\ same.\r\n\ The\ string\ "draw",\ "you"\ or\ "computer"\ is\ returned\ depending\ on\r\n\ each\ player's\ options\ and\ the\ rules\ of\ Rock,\ Paper,\ Scissors.\r\n\r\n\ @param\ yourChoice\ A\ String\ containing\ what\ the\ player\ has\ inputed.\r\n\ @param\ computerChoice\ A\ String\ containing\ what\ the\ computer\ has\ generated.\r\n\ @return\ A\ String\ stating\ which\ player\ has\ won\ the\ round.\r\n
+comment6.params=
+comment6.target=void\ playRound()
+comment6.text=\r\n\ For\ Q1\ part\ h\:\r\n\ This\ method\ prompts\ the\ user\ to\ give\ their\ choice\ of\ 'rock',\ 'paper'\ or\ 'scissors',\r\n\ get\ their\ choice\ and\ then\ generate\ the\ computer's\ choice.\r\n\ The\ choices\ of\ each\ are\ then\ confirmed\ and\ the\ winner\ of\ the\ round\ is\ determined.\r\n\ The\ scores\ of\ the\ game\ are\ then\ updated\ and\ the\ total\ scores\ are\ displayed.\r\n\r\n
+comment7.params=
+comment7.target=void\ playGame()
+comment7.text=\r\n\ For\ Q1\ part\ i\:\r\n\ This\ method\ plays\ rounds\ of\ Rock,\ Paper,\ Scissors\ until\ either\ the\ player\r\n\ or\ the\ computer\ has\ won\ three\ rounds.\r\n\ The\ overall\ winner\ is\ then\ announced.\r\n\r\n
+numComments=8

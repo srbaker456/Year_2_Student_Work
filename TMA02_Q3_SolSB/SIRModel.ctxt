@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SIRModel
+comment0.text=\r\n\ *\ For\ Q3\ part\ a\:\r\n\ This\ SIRModel\ class\ can\ be\ used\ to\ model\ how\ an\ infection\ may\ spread\ in\ a\ boarding\ school.\r\n\ The\ class\ models\ a\ school\ of\ 150\ staff\ and\ pupils\ and\ starts\ with\ 4\ people\ being\ infected.\ \r\n\ It\ then\ calculates\ the\ number\ of\ susceptible,\ infected\ and\ recovered\ people\ in\ the\ school\r\n\ per\ day,\ over\ a\ 60\ day\ period.\ This\ calculation\ depends\ on\ a\ given\ transmission\u0000\ rate\ and\r\n\ recovery\ rate.\ \r\n\r\n\ @author\ (Steven\ Baker)\r\n\ @version\ (12/02/2022)\r\n
+comment1.params=transRate\ recRate
+comment1.target=SIRModel(double,\ double)
+comment1.text=\r\n\ For\ Q3\ part\ c\:\r\n\ Constructor\ for\ objects\ of\ class\ SIRModel.\ It\ will\ initialise\ the\r\n\ transmission\ rate\ and\ recovery\ rate\ according\ to\ the\ user's\ input.\r\n\ Then\ it\ will\ add\ the\ starting\ number\ of\ infected\ people\ to\ the\ \r\n\ first\ day\ of\ the\ model\ and\ update\ the\ number\ of\ people\ susceptible\r\n\ on\ the\ first\ day.\r\n\ \r\n\ @param\ transRate\ A\ double\ representing\ a\ transmission\ rate\ in\ the\ model.\r\n\ @param\ recRate\ A\ double\ representing\ a\ recovery\ rate\ in\ the\ model.\r\n
+comment2.params=currentInfected\ currentSusceptible
+comment2.target=double\ newlyInfected(double,\ double)
+comment2.text=\r\n\ For\ Q3\ part\ d\:\r\n\ This\ method\ calculates\ and\ returns\ the\ expected\ number\ of\r\n\ new\ people\ infected\ in\ a\ day.\r\n\r\n\ @param\ currentInfected\ A\ double\ representing\ the\ number\ of\ currently\ infected.\r\n\ @param\ currentSusceptible\ A\ double\ representing\ the\ number\ of\ currently\ susceptible.\r\n\ @return\ A\ double\ representing\ the\ number\ of\ newly\ infected.\r\n
+comment3.params=currentInfected
+comment3.target=double\ newlyRecovered(double)
+comment3.text=\r\n\ For\ Q3\ part\ e\:\r\n\ This\ method\ returns\ the\ number\ of\ people\ expected\ to\ recover\ in\ a\ day\r\n\ from\ the\ number\ of\ people\ currently\ infected.\r\n\r\n\ @param\ currentInfected\ A\ double\ representing\ the\ number\ of\ currently\ infected.\r\n\ @return\ A\ double\ representing\ the\ number\ of\ newly\ recovered.\r\n
+comment4.params=currentInfected\ currentSusceptible
+comment4.target=double\ changeInInfected(double,\ double)
+comment4.text=\r\n\ For\ Q3\ part\ f\:\r\n\ This\ method\ returns\ the\ change\ in\ the\ expected\ number\ of\r\n\ infected\ after\ a\ day\ has\ passed.\ This\ value\ can\ be\r\n\ positive\ or\ negative.\r\n\r\n\ @param\ currentInfected\ A\ double\ representing\ the\ number\ of\ currently\ infected.\r\n\ @param\ currentSusceptible\ A\ double\ representing\ the\ number\ of\ currently\ susceptible.\r\n\ @return\ A\ double\ representing\ the\ change\ in\ the\ number\ of\ people\ infected.\r\n
+comment5.params=prevDay
+comment5.target=void\ nextDay(int)
+comment5.text=\r\n\ For\ Q3\ part\ g\:\r\n\ This\ method\ gives\ the\ number\ of\ infected,\ recovered,\ and\ susceptible\ \r\n\ people\ based\ on\ the\ previous\ day's\ data.\r\n\r\n\ @param\ prevDay\ An\ int\ representing\ an\ index\ of\ the\ previous\ number\ of\ susceptible,\ \r\n\ infected\ and\ recovered.\r\n
+comment6.params=
+comment6.target=void\ createData()
+comment6.text=\r\n\ For\ Q3\ part\ h\:\r\n\ This\ method\ uses\ a\ loop\ to\ call\ the\ nextDay\ method\ for\ each\r\n\ day\ of\ the\ model,\ with\ a\ day's\ susceptible,\ infected\ and\ recovered\ \ \r\n\ values\ stored\ at\ the\ appropriate\ indexes.\ \u0000\r\n\r\n
+comment7.params=
+comment7.target=void\ printGraph()
+comment7.text=\r\n\ For\ Q3\ part\ i\:\r\n\ This\ method\ prints\ a\ graph\ of\ the\ number\ of\ infected\ people.\r\n\ It\ prints\ a\ \u2018*\u2019\ character\ for\ each\ person\ that\ is\ infected\r\n\ on\ that\ day,\ giving\ the\ day\ number\ at\ the\ beginning,\ and\r\n\ the\ number\ of\ infected\ in\ brackets\ at\ the\ end\ of\ the\ printed\r\n\ line.\u0000\r\n
+numComments=8

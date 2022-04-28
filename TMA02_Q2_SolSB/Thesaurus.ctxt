@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Thesaurus
+comment0.text=\r\n\ For\ Q2\ part\ a\:\r\n\ This\ Thesaurus\ class\ can\ be\ used\ to\ look\ up\ the\ alternative\ words\ of\ a\ given\ word,\ \r\n\ also\ known\ as\ a\ synonym.\ New\ synonyms\ can\ be\ added\ to\ the\ thesaurus\ and\ it\ can\ change\r\n\ words\ for\ their\ synonyms\ in\ a\ given\ sentence.\ Synonyms\ can\ also\ be\ cross-referenced\r\n\ to\ further\ populate\ the\ thesaurus.\r\n\ \r\n\r\n\ @author\ (Steven\ Baker)\r\n\ @version\ (05/02/2022)\r\n
+comment1.params=
+comment1.target=Thesaurus()
+comment1.text=\r\n\ For\ Q2\ part\ c\:\r\n\ Constructor\ for\ objects\ of\ class\ Thesaurus\r\n\ with\ zero\ parameters.\ Initialises\ an\ empty\r\n\ HashMap\ to\ store\ words\ and\ their\u0000\ synonyms.\r\n
+comment2.params=
+comment2.target=java.util.HashMap\ getThesaurus()
+comment2.text=\r\n\ For\ Q2\ part\ d\:\r\n\ For\ testing\ purposes,\ this\ is\ a\ getter\ method\ that\r\n\ returns\ the\ synonyms\ HashMap.\r\n\r\n\ @return\ A\ HashMap\ of\ the\ thesaurus.\r\n
+comment3.params=
+comment3.target=void\ populate()
+comment3.text=\r\n\ For\ Q2\ part\ e\:\r\n\ Also\ for\ testing,\ \r\n\ this\ method\ puts\ two\ sample\ (key-value)\ entries\ into\ the\ HashMap.\r\n\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ For\ Q2\ part\ f\:\r\n\ This\ method\ prints\ out\ the\ whole\ thesaurus\ in\ the\ form\ of\ a\ word,\ \r\n\ that\ is\ the\ key\ value,\ followed\ by\ its\ synonyms.\r\n\r\n
+comment5.params=aWord\ aSynonym
+comment5.target=void\ addSynonym(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ For\ Q2\ part\ g\:\r\n\ This\ method\ adds\ a\ new\ synonym\ to\ the\ thesaurus.\ \ \r\n\r\n\ @param\ aWord\ A\ String\ of\ the\ word\ to\ add\ to\ or\ update\ the\ thesaurus.\r\n\ @param\ aSynonym\ A\ String\ of\ the\ synonym\ of\ the\ given\ word.\ \r\n
+comment6.params=aWord\ aSentence
+comment6.target=void\ replaceWord(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ For\ Q2\ part\ h\:\r\n\ This\ method\ prints\ out\ new\ variations\ of\ a\ given\ sentence.\ \r\n\ The\ inputted\ word\ is\ replaced\ by\ a\ different\ synonym\ each\ time.\r\n\r\n\ @param\ aWord\ A\ String\ of\ the\ word\ that\ should\ be\ replaced.\r\n\ @param\ aSentence\ A\ String\ of\ a\ sentence\u0000\ that\ has\ the\ word\ to\ replace.\r\n
+comment7.params=
+comment7.target=void\ crossReference()
+comment7.text=\r\n\ For\ Q2\ part\ i\:\r\n\ This\ method\ cross-references\ every\ word\ in\ the\ thesaurus,\ \r\n\ further\ populating\ the\ thesaurus\ by\ adding\ values\ as\ keys\ and\ visa\ versa.\r\n\r\n
+numComments=8
